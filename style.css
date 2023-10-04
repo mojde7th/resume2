@@ -897,8 +897,67 @@ h1.under {
   opacity: 0;
   color: transparent;
 }
-@media screen and (min-width: 350px) {
-  p.title {
+
+@media screen and (min-width: 410px) and (max-width: 680px) {
+  div.resume > a {
+    width: 100%;
+    font-size: 11px;
+    margin-top: -20px !important;
+  }
+  title {
     font-size: 10px;
+  }
+  .sub-title {
+    font-size: 14px !important;
+  }
+  div.resume {
+    flex-wrap: wrap;
+  }
+  .description {
+    text-align: justify;
+    font-size: 12px !important;
+    margin-top: -20px !important;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 410px) {
+  div.resume > a {
+    width: 100%;
+    font-size: 11px;
+  }
+  title {
+    font-size: 10px;
+  }
+  .sub-title {
+    font-size: 14px !important;
+  }
+  div.resume {
+    flex-wrap: wrap;
+    margin-top: 3px !important;
+  }
+  .description {
+    text-align: justify;
+    font-size: 12px !important;
+    margin-top: 4px !important;
+  }
+}
+@media screen and (max-width: 300px) {
+  div.resume > a {
+    width: 100%;
+    font-size: 11px;
+  }
+  title {
+    font-size: 10px;
+  }
+  .sub-title {
+    font-size: 12px !important;
+  }
+  div.resume {
+    flex-wrap: wrap;
+    margin-top: 12px !important;
+  }
+  .description {
+    text-align: justify;
+    font-size: 11px !important;
+    margin-top: 8px !important;
   }
 }

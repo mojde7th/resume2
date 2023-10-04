@@ -149,11 +149,11 @@
 })();
 
 // DISABLE PANEL LINKS FOR DEMO
-(function() {
-    var links = document.querySelectorAll('.panel a');
-    links.forEach(function(link) {
-        link.addEventListener("click", function(e) {
-            e.preventDefault();
-        });
-    });
-})();
+// (function() {
+//     var links = document.querySelectorAll('.panel a');
+//     links.forEach(function(link) {
+//         link.addEventListener("click", function(e) {
+//             e.preventDefault();
+//         });
+//     });
+// })();
