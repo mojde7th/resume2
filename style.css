@@ -1153,20 +1153,62 @@ button {
     inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   p.description.tt {
     font-size: 25px !important;
     color: #2b2b2b !important;
     width: 70% !important;
     text-align: justify;
+    margin-bottom: 30px;
+  }
+  div.panel > h2.sub-title.Creat {
+    font-size: 31px !important;
+    width: 100%;
+    margin: 0 auto;
   }
   div.resume > a {
-    font-size: 15px !important;
+    font-size: 18px !important;
+    color: #2b2b2b !important;
+    display: block;
+    border-radius: 5px;
+    width: 180px !important;
+    height: 50px;
+
+    padding: 15px;
+    margin-left: 20px;
+    line-height: 25px !important;
+    box-sizing: border-box;
+    background-color: #2b2b2b;
+    box-shadow: 5px 5px 5px grey;
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+  p.description.tt {
+    font-size: 22px !important;
+    color: #2b2b2b !important;
+
+    width: 90% !important;
+    text-align: justify;
+  }
+  div.panel > h2.sub-title.Creat {
+    font-size: 28px !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+  div.resume {
+    margin-top: -50px !important;
+  }
+  div.resume > a {
+    font-size: 18px !important;
     color: #2b2b2b !important;
     margin-top: 30px !important;
     border-radius: 5px;
-    width: 140px !important;
-    height: 40px;
+    width: 180px !important;
+    height: 50px;
+    line-height: 25px;
     padding: 10px;
     margin-left: 10px;
     box-sizing: border-box;
@@ -1177,18 +1219,62 @@ button {
     text-decoration: none;
   }
 }
-@media screen and (min-width: 800px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 800px) {
   p.description.tt {
-    font-size: 22px !important;
+    font-size: 18px !important;
     color: #2b2b2b !important;
+    margin-top: 10px !important;
+    width: 100% !important;
+    text-align: justify;
+  }
+  div.panel > h2.sub-title.Creat {
+    font-size: 22px !important;
+    width: 100%;
+    margin: 0 auto;
   }
   div.resume > a {
-    font-size: 15px !important;
+    font-size: 17px !important;
+    width: 100% !important;
+    display: block;
     color: #2b2b2b !important;
     margin-top: 30px !important;
     border-radius: 5px;
-    width: 140px !important;
+    width: 160px !important;
     height: 40px;
+    padding: 10px;
+    margin-left: 13px;
+    box-sizing: border-box;
+    background-color: #2b2b2b;
+    box-shadow: 5px 5px 5px grey;
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+  }
+  div.resume {
+    margin-top: -60px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  p.description.tt {
+    font-size: 16px !important;
+    color: #2b2b2b !important;
+    margin-top: -5px !important;
+    width: 100% !important;
+    text-align: justify;
+  }
+  div.panel > h2.sub-title.Creat {
+    font-size: 19px !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+  div.resume > a {
+    font-size: 12px !important;
+    color: #2b2b2b !important;
+    margin-top: 15px !important;
+    border-radius: 5px;
+    width: 50% !important;
+    height: 30px !important;
+    line-height: 15px;
     padding: 10px;
     margin-left: 10px;
     box-sizing: border-box;
@@ -1197,5 +1283,76 @@ button {
     color: white !important;
     text-align: center;
     text-decoration: none;
+  }
+  div.resume {
+    margin-top: -50px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  p.description.tt {
+    font-size: 14px !important;
+    color: #2b2b2b !important;
+    margin-top: -5px !important;
+    width: 100% !important;
+    text-align: justify;
+  }
+  div.panel > h2.sub-title.Creat {
+    font-size: 16px !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+  div.resume > a {
+    font-size: 12px !important;
+    color: #2b2b2b !important;
+    margin-top: 9px !important;
+    border-radius: 5px;
+    width: 40% !important;
+    height: 30px !important;
+    line-height: 15px;
+    padding: 10px;
+    margin-left: 35px;
+    box-sizing: border-box;
+    background-color: #2b2b2b;
+    box-shadow: 5px 5px 5px grey;
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+  }
+  div.resume {
+    margin-top: -19px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  p.description.tt {
+    font-size: 13px !important;
+    color: #2b2b2b !important;
+    margin-top: 10px !important;
+    width: 100% !important;
+    text-align: justify;
+  }
+  div.panel > h2.sub-title.Creat {
+    font-size: 16px !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+  div.resume > a {
+    font-size: 12px !important;
+    color: #2b2b2b !important;
+    margin-top: 9px !important;
+    border-radius: 5px;
+    width: 40% !important;
+    height: 30px !important;
+    line-height: 15px;
+    padding: 10px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    background-color: #2b2b2b;
+    box-shadow: 5px 5px 5px grey;
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+  }
+  div.resume {
+    margin-top: -30px !important;
   }
 }
