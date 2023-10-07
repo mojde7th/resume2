@@ -976,3 +976,179 @@ h1.under {
     font-size: 20px;
   }
 }
+body {
+  font-family: "pt sans";
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*
+=================
+Circle Graph using (https://github.com/rendro/easy-pie-chart)
+================
+*/
+.circle-graph p {
+  text-align: center;
+  padding: 10px;
+  z-index: 100;
+}
+
+.graph-one {
+  height: 300px; /* set height for postioning */
+}
+
+circle-graph-container {
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  top: 120px;
+}
+
+.circle-graph {
+  margin: 20px;
+  float: left;
+}
+
+/*
+=================
+Bar Graph 
+================
+*/
+.bar-graph-container {
+  border-left: 4px solid #000;
+  border-bottom: 4px solid #000;
+  width: 60%;
+  overflow: hidden;
+}
+
+.bar-graph-container p {
+  padding: 20px;
+  color: #fff;
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(-200%);
+  }
+  70% {
+    -webkit-transform: translateX(2%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(-200%);
+  }
+
+  70% {
+    -webkit-transform: translateX(2%);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+.bar-container {
+  background-color: rgba(231, 184, 239, 0.6);
+}
+
+.html {
+  width: 90%;
+  background-color: #a378aa;
+  animation: slide-left 0.9s ease-in-out 1s both;
+  -webkit-animation: slide-left 0.9s ease-in-out 1s both;
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;;
+  margin-bottom: 10px;
+}
+
+.css {
+  width: 88%;
+  background-color: #a378aa;
+  animation: slide-left 1s ease-in-out 1s both;
+  -webkit-animation: slide-left 1s ease-in-out 1s both;
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s; margin-bottom: 10px;
+}
+
+.js {
+  width: 87%;
+  background-color: #a378aa;
+  animation: slide-left 1s ease-in-out 1s both;
+  -webkit-animation: slide-left 1s ease-in-out 1s both;
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s; margin-bottom: 10px;
+}
+
+.php {
+  width: 86%;
+  background-color: #a378aa;
+  animation: slide-left 1s ease-in-out 1s both;
+  -webkit-animation: slide-left 1s ease-in-out 1s both;
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s; margin-bottom: 10px;
+}
+
+.drupal {
+  width: 94%;
+  background-color: #a378aa;
+  animation: slide-left 1s ease-in-out 1s both;
+  -webkit-animation: slide-left 1s ease-in-out 1s both; margin-bottom: 10px;
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+ 
+ 
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+ 
+
+/* 2 */
+.btn-2 {
+  background: rgb(96,9,240);
+  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+  border: none;
+  
+}
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-2:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+
+ 
